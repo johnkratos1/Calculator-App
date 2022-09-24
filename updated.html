@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Calculator 2</title>
+  </head>
+  <body>
+    <div class="note">
+      <h3>Welcome to another page of calculator</h3>
+      <h3>Go back to the previous <a href="index.html">page</a></h3>
+    </div>
+
+    <!-- A new calculator starts here -->
+    <div class="container-1">
+      <div class="calc">
+        <input type="text" id="inputtext" placeholder="0" />
+        <button onclick="clr()">C</button>
+        <button onclick="del()">DEL</button>
+        <button onclick="input('%')">%</button>
+        <button onclick="input('/')">/</button>
+        <button onclick="input(7)">7</button>
+        <button onclick="input(8)">8</button>
+        <button onclick="input(9)">9</button>
+        <button onclick="input('*')">*</button>
+        <button onclick="input(4)">4</button>
+        <button onclick="input(5)">5</button>
+        <button onclick="input(6)">6</button>
+        <button onclick="input('-')">-</button>
+        <button onclick="input(1)">1</button>
+        <button onclick="input(2)">2</button>
+        <button onclick="input(3)">3</button>
+        <button onclick="input('+')">+</button>
+        <button onclick="input('.')">.</button>
+        <button onclick="input(0)">0</button>
+        <button class="equal" onclick="result()">=</button>
+      </div>
+    </div>
+    <script src="./2nd.js"></script>
+  </body>
+</html>
